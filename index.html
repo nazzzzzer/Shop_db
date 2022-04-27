@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap" rel="stylesheet">
+
+</head>
+<style>
+.logo img{
+    width: 50px;
+    height: 50px;
+    
+}
+.dropbtn {
+
+  color: black;
+  font-size: 20px;
+  margin-left: 30%;
+  }
+.dropdown {
+  position: absolute;
+  display: inline-block;
+
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+}
+.dropdown-content a {
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+* {box-sizing: border-box;}
+.search-container {
+  float: right;
+  margin-top: 5px;
+}
+.search-container button {
+  float: right;
+  padding: 18px 18px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.search-container button:hover {
+  background: #ccc;
+  width: 6px;
+  height: 6px;
+}
+input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+   border-radius: 5px; 
+  
+}
+@media screen and (max-width: 600px) {
+  .search-container {
+    float: none;
+  }
+input[type=text], .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+    
+  }
+   input[type=text] {
+    border: 1px solid #ccc;
+    
+  }
+}
+
+.background img{
+    width: 100%;
+    position: absolute;
+}
+.background {
+position: relative;
+}
+
+.background p, .background h2, .background form{
+color: #fff;
+position: relative;
+}
+.but{
+    display: inline;
+    width: 160px;
+    height: 60px;
+    border-radius: 30px;
+    box-shadow: 0px 15px 15px;
+    background-color: yellow;
+    margin-left: 130px;
+}
+.title{
+    float: right;
+    margin-top: 15%;
+    margin-right: 15%;
+}
+
+</style>
+
+
+<body>
+    <div class="header">
+        <div class="logo">
+              <img src="img/icon.png" alt="#">
+            <div class="dropdown">
+                <p class="dropbtn" style="font-family: 'Nova Cut', cursive;">Categories</p>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+            </div>
+        
+
+            <div class="search-container">
+            
+             <form action="../action_page.php">
+               <input type="text" placeholder="Search..." name="search">
+               <button type="submit"><i class="fa fa-search"></i></button>
+             </form>
+            </div>
+        </div>
+    </div>
+ 
+
+    <div class="background">
+        <div class="back">
+            <img src="img/afisha.jpg" alt="">
+                <div class="title">
+
+               
+                <h2 class="t " style="font-family: 'Nova Cut', cursive; margin-left: 70px;">Batman Meets Catwoman</h2>
+                <p class="tt">Batman at gunpoint!Now available for purchase from the Batsite</p>
+                <form action="">
+                    <button class="but">Buy Now</button>
+                </form>
+             </div>
+            
+        </div>
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    
+</body>
+
+
+</html>
