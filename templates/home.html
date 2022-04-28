@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DVD</title>
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'home1.css' %}">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">DisKino</a>
+        <div class="dropdown">
+            <h4 class="dropbtn">Dropdown</h4>
+            <div class="dropdown-content">
+            <a href="#">Romance</a>
+            <a href="#">Horror</a>
+            <a href="#">Cartoon</a>
+            </div>
+          </div>
+            <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search">
+                      <img src="{% static 'magnifying-glass.jpg' %}" alt="">
+                  </i></button>
+                </form>
+              </div>
+        </ul>
+    </header>
+    <section>
+<!--        <img src="{% static 'mountains_front.jpg' %}" id="mountains_front">-->
+        <img src="{% static 'piccccc.jpg' %}" id="mountains_behind">
+<!--        <img src="{% static 'stars.jpg' %}" id="stars">-->
+<!--        <img src="{% static 'moon.jpg' %}" id="moon">-->
+
+        <h2 id="text">Coolbeme</h2>
+        <a href="#" id="btn">Shop now</a>
+
+
+    </section>
+</body>
+</html>
